@@ -2,7 +2,7 @@ from setuptools import setup
 from setuptools import find_packages
 
 setup(
-   name='orchestratorapi',
+   name='common_utils',
    version='1.0',
    description='A useful module',
    author='Man Foo',
