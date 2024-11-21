@@ -1,4 +1,5 @@
 from setuptools import setup
+from setuptools import find_packages
 
 setup(
    name='common_utils',
@@ -6,5 +7,5 @@ setup(
    description='A useful module',
    author='Man Foo',
    author_email='foomail@foo.example',
-   packages=['orchestratorapi']
+   packages=find_packages()
 )
